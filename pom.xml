@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>IAS101_Lab3_PostQuantumCryptography</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>21</maven.compiler.release>
+        <exec.mainClass>com.mycompany.ias101_lab3_postquantumcryptography.IAS101_Lab3_PostQuantumCryptography</exec.mainClass>
+    </properties>
+    <dependencies>
+        <!-- Bouncy Castle PQC Provider -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpqc-jdk15to18</artifactId>
+            <version>1.72</version> <!-- use 1.73 or 1.80 when officially available -->
+        </dependency>
+    </dependencies>
+
+</project>
